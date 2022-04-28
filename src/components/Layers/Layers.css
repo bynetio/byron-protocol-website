@@ -1,1 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Work+Sans:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;800&display=swap");
+.shadow {
+  -webkit-box-shadow: -100px 100px 100px 100px rgba(126, 132, 208, 0.21);
+  -moz-box-shadow: -100px 100px 100px 100px rgba(126, 132, 208, 0.21);
+  box-shadow: -400px 500px 100px 100px rgba(126, 132, 208, 0.21);
+}

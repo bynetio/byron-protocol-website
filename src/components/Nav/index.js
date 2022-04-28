@@ -8,10 +8,33 @@ import {
 import Footer from "../Footer";
 import './Nav.scss';
 
+import a from '../../1.png';
+import b from '../../2.png';
+import c from '../../3.png';
+
 export default class Nav extends Component{
   render() {
   return (
-    <Router>
+<div>
+	<ul id="cards">
+		<li className="card" id="card_1">
+      <img className="card__content" src={a} alt="" ></img>
+		</li>
+		<li className="card" id="card_2">
+      <img className="card__content" src={b} alt="" ></img>
+		</li>
+		<li className="card" id="card_3">
+      <img className="card__content" src={c} alt="" ></img>
+		</li>
+	</ul>
+</div>
+    
+  );
+}
+}
+
+
+{/* <Router>
       <div>
       <nav className="navbar navbar-expand-lg navbar-light justify-content-left">
        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +58,4 @@ export default class Nav extends Component{
           <Route extact path="/dashboard" element={<Footer />}/>
         </Routes>
       </div>
-    </Router>
-  );
-}
-}
+    </Router> */}
