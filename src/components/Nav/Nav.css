@@ -1,8 +1,8 @@
 :root {
   --card-height: 40vw;
   --card-margin: 4vw;
-  --card-top-offset: 5em;
-  --numcards: 4;
+  --card-top-offset: 4em;
+  --numcards: 3;
   --outline-width: 0px;
 }
 
@@ -14,7 +14,7 @@
 }
 
 #card_1 {
-  --index: 1;
+  --index: 3;
 }
 
 #card_2 {
@@ -22,7 +22,7 @@
 }
 
 #card_3 {
-  --index: 3;
+  --index: 1;
 }
 
 .card {

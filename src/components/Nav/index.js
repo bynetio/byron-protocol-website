@@ -24,7 +24,7 @@ export default class Nav extends Component{
       <img className="card__content" src={b} alt="" ></img>
 		</li>
 		<li className="card" id="card_3">
-      <img className="card__content" src={c} alt="" ></img>
+      <img className="card__content" src={a} alt="" ></img>
 		</li>
 	</ul>
 </div>
