@@ -2,3 +2,42 @@
 #hero {
   min-height: 80vh;
 }
+
+@keyframes move {
+  100% {
+    stroke-dashoffset: 300px;
+  }
+}
+
+#hero .top {
+  fill: none;
+  stroke: #418AF2;
+  stroke-width: 2px;
+  /* Stroke-dasharray property */
+  stroke-dasharray: 2000px;
+  stroke-dashoffset: 2000px;
+  animation: move 6s ease-in infinite;
+  /*     animation-fill-mode: forwards; */
+}
+
+#hero .middle {
+  fill: none;
+  stroke: #418AF2;
+  stroke-width: 2px;
+  /* Stroke-dasharray property */
+  stroke-dasharray: 1500px;
+  stroke-dashoffset: 1500px;
+  animation: move 5s ease-out infinite;
+  /*     animation-fill-mode: forwards; */
+}
+
+#hero .cubic {
+  fill: none;
+  stroke: #418AF2;
+  stroke-width: 2px;
+  /* Stroke-dasharray property */
+  stroke-dasharray: 150px;
+  stroke-dashoffset: 150px;
+  animation: move 5s ease-out infinite;
+  /*     animation-fill-mode: forwards; */
+}

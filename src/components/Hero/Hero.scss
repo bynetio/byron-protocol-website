@@ -1,4 +1,40 @@
 @import "../../../public/assets/_master.scss";
 #hero {
     min-height: 80vh;
+    // background: no-repeat url('../../Frame.svg') center center;
+    @keyframes move {
+        100% {
+            stroke-dashoffset: 300px;
+        }
+    }
+    .top {
+        fill: none;
+        stroke: #418AF2;
+        stroke-width: 2px;
+        /* Stroke-dasharray property */
+        stroke-dasharray: 2000px;
+        stroke-dashoffset: 2000px;
+        animation: move 6s ease-in infinite;
+        /*     animation-fill-mode: forwards; */
+    }
+    .middle {
+        fill: none;
+        stroke: #418AF2;
+        stroke-width: 2px;
+        /* Stroke-dasharray property */
+        stroke-dasharray: 1500px;
+        stroke-dashoffset: 1500px;
+        animation: move 5s ease-out infinite;
+        /*     animation-fill-mode: forwards; */
+    }
+    .cubic {
+        fill: none;
+        stroke: #418AF2;
+        stroke-width: 2px;
+        /* Stroke-dasharray property */
+        stroke-dasharray: 150px;
+        stroke-dashoffset: 150px;
+        animation: move 5s ease-out infinite;
+        /*     animation-fill-mode: forwards; */
+    }
 }
