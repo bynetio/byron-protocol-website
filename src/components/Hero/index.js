@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Hero.scss';
 import c from '../../Frame.svg';
+import abstract from '../../abstract.png'
 
 export default class Hero extends Component {
   render() {
@@ -8,11 +9,11 @@ export default class Hero extends Component {
       <section id="hero" className="mx-auto my-auto bg-gradient-to-t from-bckg-blue to-white">
         <h1 className="mt-56 text-7xl max-w-5xl mx-auto font-extrabold leading-relaxed">Liquidity Provider infrastructure for Cardano</h1>
         <button className="mt-32 bg-gradient-to-r from-dark-blue to-light-blue hover:from-pink-500 hover:to-yellow-500 text-white font-bold py-2 px-4 rounded-lg">Explore Protocol</button>
-        
+        <img src={abstract} alt="Logo" className="mx-auto blur"/>
 
 
     
-        <svg class="container mx-auto" width="482" height="342" viewBox="0 0 482 342" fill="none" xmlns="http://www.w3.org/2000/svg">
+        {/* <svg class="container mx-auto" width="482" height="342" viewBox="0 0 482 342" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_253_600)">
 
 
@@ -60,7 +61,7 @@ export default class Hero extends Component {
 <rect width="481.5" height="342" fill="white"/>
 </clipPath>
 </defs>
-</svg>
+</svg> */}
 
 
 
