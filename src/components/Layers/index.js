@@ -9,7 +9,7 @@ import dot3 from '../../dot3.svg';
 export default class Layers extends Component {
   render() {
     return (
-      <section id="layers" className="bg-bckg-blue text-left">
+      <section id="layers" className="overflow-hidden bg-bckg-blue text-left">
         <div className="flex mx-4 md:mx-0 md:max-w-6xl mx-auto">
           <div className="w-full md:w-1/2 md:mr-14">
           <h4 className="text-sm text-blue uppercase font-bold tracking-[.5em] mb-6">Meet protocol layers</h4>
@@ -19,14 +19,14 @@ export default class Layers extends Component {
             <div className="flex flex-row bg-white rounded-lg mb-6">
               <span className="basis-1/10 my-8 mx-6"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="16" fill="#D7ECFF"/><path d="M21.3332 12L13.9998 19.3333L10.6665 16" stroke="#1566E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
 
-             <span className="basis-9/10 mt-6">Liquidity Orders increase in size with a fee specified by Liquidity Provider
+             <span className="basis-9/10 mt-6 mr-6 md:mr-0">Liquidity Orders increase in size with a fee specified by Liquidity Provider
              </span>
             </div>
 
             <div className="flex flex-row bg-white rounded-lg mb-6">
               <span className="basis-1/10 my-8 mx-6">
               <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="16" fill="#D7ECFF"/><path d="M21.3332 12L13.9998 19.3333L10.6665 16" stroke="#1566E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-              <span className="basis-9/10 mt-6">
+              <span className="basis-9/10 mt-6 mr-6 md:mr-0">
               Partially Fulfillable Orders as a way of facing variable order parameters
               </span>
             </div>
@@ -35,7 +35,7 @@ export default class Layers extends Component {
               <span className="basis-1/10 my-8 mx-6">
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="16" fill="#D7ECFF"/><path d="M21.3332 12L13.9998 19.3333L10.6665 16" stroke="#1566E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </span>
-                <span className="basis-9/10 mt-6">
+                <span className="basis-9/10 mt-6 mr-6 md:mr-0">
                 Adjustable Liquidity Orders distribution depending on the price dynamics
             </span></div>
           </div>
@@ -43,7 +43,7 @@ export default class Layers extends Component {
           <div className="w-0 invisible md:visible md:w-1/2 md:ml-14"><img src={a} alt="" ></img></div>
         </div>
 
-        <div className="flex max-w-6xl mx-auto mt-52">
+        <div className="mx-4 md:mx-0 flex max-w-6xl mx-auto mt-52">
           <div className="w-full md:w-1/2 md:mr-14">
           <h4 className="text-sm text-blue uppercase font-bold tracking-[.5em] mb-6">Meet protocol layers</h4>
           <h2 className="text-[38px] md:text-[56px] font-bold">Matchmaking Engine</h2>
@@ -53,7 +53,7 @@ export default class Layers extends Component {
           <div className="w-0 invisible md:visible md:w-1/2 md:ml-14"><img src={b} alt="" ></img></div>
         </div>
 
-        <div className="flex max-w-6xl mx-auto mt-52">
+        <div className="mx-4 md:mx-0 flex max-w-6xl mx-auto mt-52">
           <div className="w-full md:w-1/2 md:mr-14">
           <h4 className="text-sm text-blue uppercase font-bold tracking-[.5em] mb-6">Meet protocol layers</h4>
           <h2 className="text-[38px] md:text-[56px] font-bold">Problem solving with Bynet Protocol</h2>
