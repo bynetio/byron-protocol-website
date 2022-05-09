@@ -10,7 +10,7 @@ export default class Footer extends Component {
     return (
       <div className="overflow-hidden bg-bckg-blue">
 
-      <div className="md:invisible md:max-w-6xl mx-auto py-6">
+      <div className="md:invisible md:max-w-6xl mx-auto py-6 h-auto md:h-0">
 
           
           <div className=""><img src={logo} alt="Logo" className="mx-auto"/></div>

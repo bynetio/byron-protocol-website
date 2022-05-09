@@ -5,13 +5,13 @@ import abstract from '../../abstract.png'
 export default class CallToAction extends Component {
   render() {
     return (
-      <section id="callToAction" className="overflow-hidden">
+      <section id="callToAction" className="">
         <div class="bg-bckg-blue">
         <div className="triangle"></div>
           <div className="rectangle"></div>
         </div>
         <div className="bg-navy text-left">
-        <div className="mx-4 md:mx-0 flex flex-wrap-reverse md:flex-nowrap max-w-6xl mx-auto">
+        <div className="mx-6 md:mx-auto flex flex-wrap-reverse md:flex-nowrap max-w-6xl">
 
           <div className="md:w-1/2">
           <h4 className="text-sm text-blue uppercase font-bold tracking-[.5em] my-6">Get started</h4>
