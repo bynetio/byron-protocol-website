@@ -4,7 +4,7 @@ html {
 }
 
 #hero {
-    min-height: 80vh;
+    min-height: 95vh;
     img {
         animation: crescendo 1.5s alternate infinite ease-in;
     }
@@ -14,7 +14,7 @@ html {
         margin-right: auto;
         left: 0;
         right: 0;
-        top: 0;
+        top: 5rem;
     }
     @keyframes crescendo {
         0% {

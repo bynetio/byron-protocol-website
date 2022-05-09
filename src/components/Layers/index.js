@@ -9,7 +9,7 @@ import dot3 from '../../dot3.svg';
 export default class Layers extends Component {
   render() {
     return (
-      <section id="layers" className="bg-bckg-blue text-left">
+      <section id="layers" className="bg-bckg-blue text-left pt-12 md:pt-0">
         <div className="flex mx-6 md:mx-auto md:max-w-6xl">
           <div className="md:w-1/2 md:mr-14">
           <h4 className="text-sm text-blue uppercase font-bold tracking-[.5em] mb-6">Meet protocol layers</h4>
@@ -43,7 +43,7 @@ export default class Layers extends Component {
           <div className="w-0 invisible md:visible md:w-1/2 md:ml-14"><img src={a} alt="" ></img></div>
         </div>
 
-        <div className="mx-6 md:mx-auto flex max-w-6xl mt-52">
+        <div className="mx-6 md:mx-auto flex max-w-6xl mt-12 md:mt-52">
           <div className="w-full md:w-1/2 md:mr-14">
           <h4 className="text-sm text-blue uppercase font-bold tracking-[.5em] mb-6">Meet protocol layers</h4>
           <h2 className="text-[38px] md:text-[56px] font-bold">Matchmaking Engine</h2>
@@ -53,7 +53,7 @@ export default class Layers extends Component {
           <div className="w-0 invisible md:visible md:w-1/2 md:ml-14"><img src={b} alt="" ></img></div>
         </div>
 
-        <div className="mx-6 md:mx-auto flex max-w-6xl mt-52">
+        <div className="mx-6 md:mx-auto flex max-w-6xl mt-12 md:mt-52">
           <div className="w-full md:w-1/2 md:mr-14">
           <h4 className="text-sm text-blue uppercase font-bold tracking-[.5em] mb-6">Meet protocol layers</h4>
           <h2 className="text-[38px] md:text-[56px] font-bold">Problem solving with Bynet Protocol</h2>
