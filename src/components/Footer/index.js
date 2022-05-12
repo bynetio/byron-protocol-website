@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './Footer.scss';
 import logo from '../../byron-protocol-logo.png';
-import github from '../../github.png';
-import instagram from '../../instagram.png';
-import twitter from '../../twitter.png';
-import figma from '../../figma.png';
+import github from '../../github.svg';
+import discord from '../../discord.svg';
+import twitter from '../../twitter.svg';
+import telegram from '../../telegram.svg';
 export default class Footer extends Component {
   render() {
     return (
@@ -25,8 +25,8 @@ export default class Footer extends Component {
             <div className="mx-auto my-2">
             <a href="https://twitter.com/byron_cardano" target="blank"><img src={twitter} alt="Logo" className="mr-4 inline"/></a>
             <a href="https://github.com/byron-network/" target="blank"><img src={github} alt="Logo" className="mr-4 inline"/></a>
-            <a href="https://discord.gg/Vp3w43Wt" target="blank"><img src={figma} alt="Logo" className="mr-4 inline"/></a>
-            <a href="https://t.me/byron_network" target="blank"><img src={instagram} alt="Logo" className="mr-4 inline"/></a>
+            <a href="https://discord.gg/Vp3w43Wt" target="blank"><img src={discord} alt="Logo" className="mr-4 inline"/></a>
+            <a href="https://t.me/byron_network" target="blank"><img src={telegram} alt="Logo" className="mr-4 inline"/></a>
             </div>
           </div>
 
@@ -53,8 +53,8 @@ export default class Footer extends Component {
           <div className="md:row-span-2 md:col-span-2 flex">
             <a href="https://twitter.com/byron_cardano" target="blank"><img src={twitter} alt="Logo" className="mr-4"/></a>
             <a href="https://github.com/byron-network/" target="blank"><img src={github} alt="Logo" className="mr-4"/></a>
-            <a href="https://discord.gg/Vp3w43Wt" target="blank"><img src={figma} alt="Logo" className="mr-4"/></a>
-            <a href="https://t.me/byron_network" target="blank"><img src={instagram} alt="Logo" className="mr-4"/></a>
+            <a href="https://discord.gg/Vp3w43Wt" target="blank"><img src={discord} alt="Logo" className="mr-4"/></a>
+            <a href="https://t.me/byron_network" target="blank"><img src={telegram} alt="Logo" className="mr-4"/></a>
           </div>
         </div>
 
