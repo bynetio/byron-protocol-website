@@ -6,7 +6,7 @@
     border-right: 100vw solid transparent;
     border-bottom: 3vw solid #0E192F;
     position: relative;
-    bottom: -100px
+    bottom: -101px;
 }
 
 .rectangle {
@@ -15,4 +15,5 @@
     background: linear-gradient(104.93deg, #DDE8FF 39.47%, rgba(221, 232, 255, 0) 81.59%);
     border-radius: 2rem 2rem 0 0;
     margin-left: 10vw;
+    border-bottom: 1px solid #0E192F;
 }

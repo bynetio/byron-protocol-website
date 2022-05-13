@@ -10,8 +10,8 @@ export default class Layers extends Component {
   render() {
     return (
       <section id="layers" className="bg-bckg-blue text-left pt-12 md:pt-0">
-        <div className="flex flex-wrap-reverse lg:flex-nowrap mx-6 md:mx-8 lg:mx-auto md:max-w-6xl">
-          <div className="md:w-full lg:w-1/2 lg:mr-14">
+        <div className="flex flex-wrap-reverse xl:flex-nowrap mx-6 md:mx-8 xl:mx-auto md:max-w-6xl">
+          <div className="md:w-full xl:w-1/2 xl:mr-14">
           <h4 className="text-sm text-blue uppercase font-bold tracking-[.5em] mb-6">Meet protocol layers</h4>
           <h2 className="text-[38px] md:text-[56px] font-bold">On-chain Order-Book</h2>
           <p className="mt-8 text-lg">Byron Network offers a fundamental on-chain order book called Bynet Protocol utilizing an infrastructure layer that enables development on top of the protocol. DApps can use shared liquidity from Bynet Protocol’s order book by developing their products with the infrastructure. Having mass adoption in mind, Byron Network aims to provide a development layer that is ready to be implemented by projects like BynetDEX.</p>
@@ -40,21 +40,21 @@ export default class Layers extends Component {
             </span></div>
           </div>
           </div>
-          <div className="w-0 invisible md:visible md:w-full lg:w-1/2 lg:ml-14"><img src={a} alt="" ></img></div>
+          <div className="w-0 invisible md:visible md:w-full xl:w-1/2 2xl:ml-14"><img src={a} alt="" ></img></div>
         </div>
 
-        <div className="mx-6 mx-6 md:mx-8 lg:mx-auto flex flex-wrap-reverse lg:flex-nowrap max-w-6xl mt-12 lg:mt-52">
-          <div className="md:w-full lg:w-1/2 lg:mr-14">
+        <div className="mx-6 mx-6 md:mx-8 xl:mx-auto flex flex-wrap-reverse xl:flex-nowrap max-w-6xl mt-12 xl:mt-52">
+          <div className="md:w-full xl:w-1/2 2xl:mr-14">
           <h4 className="text-sm text-blue uppercase font-bold tracking-[.5em] mb-6">Meet protocol layers</h4>
           <h2 className="text-[38px] md:text-[56px] font-bold">Matchmaking Engine</h2>
           <p className="mt-8 text-lg">Matchmaking is a service that executes transactions by matching appropriate orders from the order book. Matchmaker is an algorithmic program that performs swaps while getting the difference between the bid and ask prices. It can decide on the commission they are aiming for, with diverse strategies dependent on a specific market.</p>
           <p className="mt-8 text-blue">Stake Pool Operators are a crucial part of the Cardano network, and they will be incentivized to perform swaps as matchmakers with various options of rewarding their delegators.</p>
           </div>
-          <div className="w-0 invisible md:visible md:w-full lg:w-1/2 lg:ml-14"><img src={b} alt="" ></img></div>
+          <div className="w-0 invisible md:visible md:w-full xl:w-1/2 2xl:ml-14"><img src={b} alt="" ></img></div>
         </div>
 
-        <div className="mx-6 md:mx-8 lg:mx-auto flex flex-wrap-reverse lg:flex-nowrap max-w-6xl mt-12 lg:mt-52">
-          <div className="md:w-full lg:w-1/2 lg:mr-14">
+        <div className="mx-6 md:mx-8 xl:mx-auto flex flex-wrap-reverse xl:flex-nowrap max-w-6xl mt-12 xl:mt-52">
+          <div className="md:w-full xl:w-1/2 2xl:mr-14">
           <h4 className="text-sm text-blue uppercase font-bold tracking-[.5em] mb-6">Meet protocol layers</h4>
           <h2 className="text-[38px] md:text-[56px] font-bold">Problem solving with Bynet Protocol</h2>
           <ul className="mt-8 text-lg">
@@ -77,7 +77,7 @@ export default class Layers extends Component {
             </li>
           </ul>
           </div>
-          <div className="w-0 invisible md:visible md:w-full lg:w-1/2 lg:ml-14"><img src={c} alt="" ></img></div>
+          <div className="w-0 invisible md:visible md:w-full xl:w-1/2 2xl:ml-14"><img src={c} alt="" ></img></div>
         </div>
       </section>
     )

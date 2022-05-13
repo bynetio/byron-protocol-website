@@ -8,9 +8,9 @@ import telegram from '../../telegram.svg';
 export default class Footer extends Component {
   render() {
     return (
-      <div className="overflow-hidden bg-bckg-blue">
+      <footer className="overflow-hidden bg-bckg-blue">
 
-      <div className="md:invisible md:max-w-6xl mx-auto py-6 h-auto md:h-0">
+      <div className="xl:invisible md:max-w-6xl mx-6 xl:mx-auto py-6 h-auto md:h-0">
 
           
           <div className=""><img src={logo} alt="Logo" className="mx-auto"/></div>
@@ -35,7 +35,7 @@ export default class Footer extends Component {
 
         
 
-      <div className="h-0 md:h-auto invisible md:visible md:max-w-6xl mx-auto py-6">
+      <div className="h-0 md:h-auto invisible xl:visible md:max-w-6xl mx-auto py-6">
         <div className="grid md:grid-rows-2 md:grid-cols-6 grid-flow-col">
           
           <div className="md:row-span-2 md:col-span-1"><img src={logo} alt="Logo" className=""/></div>
@@ -50,7 +50,7 @@ export default class Footer extends Component {
 
           <div className="md:row-span-1 md:col-span-3"><div className="mr-4 text-grey">Copyrignt@ 2022 Byron Network OU. All rights reserved.</div></div>
 
-          <div className="md:row-span-2 md:col-span-2 flex">
+          <div className="md:row-span-2 md:col-span-2 flex md:h-[300px] xl:h-auto">
             <a href="https://twitter.com/byron_cardano" target="blank"><img src={twitter} alt="Logo" className="mr-4"/></a>
             <a href="https://github.com/byron-network/" target="blank"><img src={github} alt="Logo" className="mr-4"/></a>
             <a href="https://discord.gg/Vp3w43Wt" target="blank"><img src={discord} alt="Logo" className="mr-4"/></a>
@@ -59,7 +59,7 @@ export default class Footer extends Component {
         </div>
 
         </div>
-      </div>
+      </footer>
     )
   }
 }
