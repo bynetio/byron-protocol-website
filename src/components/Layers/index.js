@@ -27,7 +27,7 @@ export default class Layers extends Component {
               <span className="basis-1/10 my-8 mx-6">
               <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="16" fill="#D7ECFF"/><path d="M21.3332 12L13.9998 19.3333L10.6665 16" stroke="#1566E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
               <span className="basis-9/10 mt-6 mr-6 md:mr-0">
-              Partially Fulfillable Orders as a way of facing variable order parameters
+              Adjustable Liquidity Orders distribution depending on the price dynamics
               </span>
             </div>
 

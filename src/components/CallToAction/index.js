@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './CallToAction.scss';
 import abstract from '../../abstract.png';
-import whitepaper from '../../byron-network-whitepaper.pdf';
+import whitepaper from '../../BynetProtocolWhitepaper.pdf';
 
 export default class CallToAction extends Component {
   render() {
