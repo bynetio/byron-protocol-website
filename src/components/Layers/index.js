@@ -4,7 +4,6 @@ import a from '../../1.png';
 import b from '../../Group2.png';
 import c from '../../Group3.png';
 import dot1 from '../../dot1.svg';
-import dot2 from '../../dot2.svg';
 import dot3 from '../../dot3.svg';
 export default class Layers extends Component {
   render() {

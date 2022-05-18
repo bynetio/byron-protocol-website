@@ -9,6 +9,7 @@ html {
 
 #hero img {
   animation: crescendo 1.5s alternate infinite ease-in;
+  opacity: 0.2;
 }
 
 #hero .absolute {
