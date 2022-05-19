@@ -13,9 +13,6 @@ import b from '../../2.png';
 import c from '../../3.png';
 import logo from '../../byron-logo.svg';
 import arrow from '../../arrow-right.svg';
-import whitepaper from '../../BynetProtocolWhitepaper.pdf';
-
-
 export default class Nav extends Component{
   render() {
   return (
@@ -31,7 +28,7 @@ export default class Nav extends Component{
         <a className="text-black hover:text-blue" href="#layers" >Protocol&nbsp;Layers</a>
       </li>
       <li className="mr-6">
-        <a className="text-blue font-bold hover:underline w-max inline-block" href={whitepaper} rel="noopener noreferrer" target="blank">Whitepaper<img className="inline-block" src={arrow} alt=""/></a>
+        <a className="text-blue font-bold hover:underline w-max inline-block" href="https://docsend.com/view/taamqqwdehwhfvhb" rel="noopener noreferrer" target="blank">Whitepaper<img className="inline-block" src={arrow} alt=""/></a>
       </li>
     </ul>
 </div>
