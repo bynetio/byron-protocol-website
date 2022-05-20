@@ -28,7 +28,7 @@ export default class Nav extends Component{
         <a className="text-black hover:text-blue" href="#layers" >Protocol&nbsp;Layers</a>
       </li>
       <li className="mr-6">
-        <a className="text-blue font-bold hover:underline w-max inline-block" href="https://docsend.com/view/taamqqwdehwhfvhb" rel="noopener noreferrer" target="blank">Whitepaper<img className="inline-block" src={arrow} alt=""/></a>
+        <a className="text-blue font-bold hover:underline w-max inline-block" href="https://docsend.com/view/5zj8emupedjs4gtt" rel="noopener noreferrer" target="blank">Whitepaper<img className="inline-block" src={arrow} alt=""/></a>
       </li>
     </ul>
 </div>
