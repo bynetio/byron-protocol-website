@@ -4,14 +4,14 @@ import ParallaxImagesContainer from '../src/components/Hero';
 // import Layers from '../src/components/Layers';
 import CallToAction from '../src/components/CallToAction';
 import Footer from '../src/components/Footer';
-import LayersAnimation from './components/LayersAnimation';
+import Layers from './components/Layers';
 
 function App() {
   return (
     <div className="App">
       <Nav/>
       <ParallaxImagesContainer/>
-      <LayersAnimation/>
+      <Layers/>
       <CallToAction/>
       <Footer/>
     </div>

@@ -5,10 +5,12 @@ import b from '../../Group2.png';
 import c from '../../Group3.png';
 import dot1 from '../../dot1.svg';
 import dot3 from '../../dot3.svg';
+import LayersAnimation from '../LayersAnimation';
 export default class Layers extends Component {
   render() {
     return (
-      <section id="layers" className="bg-bckg-blue text-left pt-12 md:pt-0">
+      <section id="layers" >
+      <section className="bg-bckg-blue text-left pt-12 md:pt-0 xl:invisible xl:h-0">
         <div className="flex flex-wrap-reverse xl:flex-nowrap mx-6 md:mx-8 xl:mx-auto md:max-w-6xl">
           <div className="md:w-full xl:w-1/2 xl:mr-14">
           <h4 className="text-sm text-blue uppercase font-bold tracking-[.5em] mb-6">Meet protocol layers</h4>
@@ -39,9 +41,8 @@ export default class Layers extends Component {
             </span></div>
           </div>
           </div>
-          <div className="w-0 invisible md:visible md:w-full xl:w-1/2 2xl:ml-14"><img src={a} alt="" ></img></div>
+          <div className="w-0 invisible md:visible xl:invisible md:w-full xl:w-1/2 2xl:ml-14"><img src={a} alt="" ></img></div>
         </div>
-
         <div className="mx-6 mx-6 md:mx-8 xl:mx-auto flex flex-wrap-reverse xl:flex-nowrap max-w-6xl mt-12 xl:mt-52">
           <div className="md:w-full xl:w-1/2 2xl:mr-14">
           <h4 className="text-sm text-blue uppercase font-bold tracking-[.5em] mb-6">Meet protocol layers</h4>
@@ -49,7 +50,7 @@ export default class Layers extends Component {
           <p className="mt-8 text-lg">Matching is a service that executes transactions by matching appropriate orders from the order book. Matchmaker is an algorithmic program that performs swaps while getting the difference between the bid and ask prices. It can decide on the commission they are aiming for, with diverse strategies dependent on a specific market.</p>
           <p className="mt-8 text-blue">Stake Pool Operators are a crucial part of the next phase - scaling with the Layer 2. As incentivised contributors to the protocol, they are going to act as Matchmakers.</p>
           </div>
-          <div className="w-0 invisible md:visible md:w-full xl:w-1/2 2xl:ml-14"><img src={b} alt="" ></img></div>
+          <div className="w-0 invisible md:visible xl:invisible  md:w-full xl:w-1/2 2xl:ml-14 "><img src={b} alt="" ></img></div>
         </div>
 
         <div className="mx-6 md:mx-8 xl:mx-auto flex flex-wrap-reverse xl:flex-nowrap max-w-6xl mt-12 xl:mt-52">
@@ -69,8 +70,10 @@ export default class Layers extends Component {
             </li>
           </ul>
           </div>
-          <div className="w-0 invisible md:visible md:w-full xl:w-1/2 2xl:ml-14"><img src={c} alt="" ></img></div>
+          <div className="w-0 invisible md:visible xl:invisible md:w-full xl:w-1/2 2xl:ml-14"><img src={c} alt="" ></img></div>
         </div>
+      </section>
+      <LayersAnimation/>
       </section>
     )
   }

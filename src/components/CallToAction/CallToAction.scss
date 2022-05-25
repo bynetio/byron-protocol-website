@@ -21,3 +21,28 @@ html {
     margin-left: 10vw;
     border-bottom: 1px solid #0E192F;
 }
+
+.button {
+    background: linear-gradient(90deg, #2C2EFE 0%, #0A97FD 134.71%);
+    padding: 12px 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 8px;
+    color: #ffffff;
+    &:hover {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), linear-gradient(90deg, #2C2EFE 0%, #0A97FD 134.71%);
+    }
+    &:focus {
+        background: linear-gradient(90deg, #2C2EFE 0%, #0A97FD 134.71%);
+        padding: 12px 24px;
+        outline: 1px dashed #838383;
+        outline-offset: 8px;
+    }
+    &:active {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), linear-gradient(90deg, #2C2EFE 0%, #0A97FD 134.71%);
+    }
+    &:disabled {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), linear-gradient(90deg, #2C2EFE 0%, #0A97FD 134.71%);
+    }
+}

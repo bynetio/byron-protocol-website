@@ -21,9 +21,11 @@ const Container = Styled.div`
 	height: 70vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: top;
 	overflow: hidden;
-
+  @media (min-width: 1280px) {
+    align-items: center;
+  } 
 `;
 
 const ParallaxImagesContainer = ({ backgroundImage, layers }) => {
@@ -35,7 +37,7 @@ const ParallaxImagesContainer = ({ backgroundImage, layers }) => {
   return (
     <section id="hero" className="overflow-hidden mx-auto my-auto bg-gradient-to-t from-bckg-blue to-white">
     <Container backgroundImage={backgroundImage}>
-      <div id="scene">
+      <div id="scene" className="mx-6 md:mx-0">
         {layers.map((l, index) => (
           <img
             key={index}

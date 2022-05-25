@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;800&display=swap");
+.shadow {
+  -webkit-box-shadow: -100px 100px 100px 100px rgba(126, 132, 208, 0.21);
+  -moz-box-shadow: -100px 100px 100px 100px rgba(126, 132, 208, 0.21);
+  box-shadow: -700px 300px 100px 150px rgba(126, 132, 208, 0.21);
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+}
+
+:root {
+  --card-height: 734px;
+  --card-margin: 2vw;
+  --card-top-offset: 2em;
+  --numcards: 3;
+  --outline-width: 0px;
+}
+
+#cards {
+  padding-bottom: calc(var(--numcards) * var(--card-top-offset));
+  /* Make place at bottom, as items will slide to that position*/
+  margin-bottom: var(--card-margin);
+  /* Don't include the --card-margin in padding, as that will affect the scroll-timeline*/
+}
+
+#card_1 {
+  --index: 3;
+}
+
+#card_2 {
+  --index: 2;
+}
+
+#card_3 {
+  --index: 1;
+}
+
+.card {
+  position: sticky;
+  top: 0px;
+  padding-top: calc(var(--index) * var(--card-top-offset));
+}

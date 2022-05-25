@@ -14,7 +14,13 @@ html {
   margin-right: auto;
   left: 0px;
   right: 0;
-  top: 282px;
+  top: 292px;
+}
+
+@media (min-width: 640px) {
+  #hero .absolute {
+    top: 415px;
+  }
 }
 
 #hero .button {
@@ -25,8 +31,6 @@ html {
   font-size: 18px;
   border-radius: 8px;
   color: #ffffff;
-  width: 192px;
-  height: 45px;
 }
 
 #hero .button:hover {

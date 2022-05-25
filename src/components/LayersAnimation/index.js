@@ -9,7 +9,7 @@ import dot3 from '../../dot3.svg';
 export default class LayersAnimation extends Component {
   render() {
     return (
-      <section id="layers" className="bg-bckg-blue text-left">
+      <section className="bg-bckg-blue text-left invisible h-0 xl:visible xl:h-auto">
         <div className="flex max-w-6xl mx-auto">
           <div className="w-full sm:w-1/2 mr-14">
 

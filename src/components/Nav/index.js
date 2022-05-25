@@ -17,19 +17,19 @@ export default class Nav extends Component{
   render() {
   return (
   <nav>
-    <div className="md:max-w-6xl mx-auto pt-4 px-4">
-      <ul className="flex justify-end items-center h-max">
-        <li className="mr-6 w-full">
-          <a href="#"><img src={logo} alt="" className=""/></a>
+    <div className="pt-4 px-4 xl:px-0 md:max-w-6xl mx-auto pb-20 sm:pb-40 lg:pb-0">
+      <ul className="flex justify-end items-top h-max">
+        <li className="mr-6 mt-2 w-full">
+          <a href="#"><img src={logo} alt="" className="max-h-[77px] sm:max-h-[90px]"/></a>
         </li>
-        <li className="mr-6 invisible md:visible w-0 md:w-auto">
+        <li className="mr-8 mt-2 invisible md:visible w-0 md:w-auto">
           <a className="text-black hover:text-blue font-bold" href="#">Home</a>
         </li>
-        <li className="mr-6 invisible md:visible w-0 md:w-max">
-          <a className="text-black hover:text-blue" href="#layers" >Protocol&nbsp;Layers</a>
+        <li className="mr-8 mt-2 invisible md:visible w-0 md:w-max">
+          <a className="text-black hover:text-blue border-left" href="#layers" >Protocol&nbsp;Layers</a><span class="ml-8 border-r-2"></span>
         </li>
-        <li className="mr-6">
-          <a className="text-blue font-bold hover:underline w-max inline-block" href="https://docsend.com/view/5zj8emupedjs4gtt" rel="noopener noreferrer" target="blank">Whitepaper<img className="inline-block" src={arrow} alt=""/></a>
+        <li className="">
+          <a className="text-blue mt-2 font-bold hover:underline w-max inline-block" href="https://docsend.com/view/5zj8emupedjs4gtt" rel="noopener noreferrer" target="blank">Whitepaper<img className="inline-block" src={arrow} alt=""/></a>
         </li>
       </ul>
   </div>
