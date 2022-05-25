@@ -6,6 +6,7 @@ import Parallax from "parallax-js";
 import PropTypes from "prop-types";
 
 import backgroundImage from "../../abstract.png";
+import arrow from '../../arrow-down.svg';
 
 const layers = [
   {
@@ -47,7 +48,8 @@ const ParallaxImagesContainer = ({ backgroundImage, layers }) => {
     </Container>
     <div className="absolute">
     <h1 className="pb-8 md:pb-32 text-5xl md:text-7xl max-w-5xl mx-auto font-extrabold leading-relaxed">Scalable infrastructure empowering DeFi on Cardano</h1>
-    <a href="#layers" className="bg-gradient-to-r from-dark-blue to-light-blue hover:from-light-blue hover:to-dark-blue text-white font-bold py-2 px-4 rounded-lg">Explore Protocol</a>
+    <span className="stitch"></span><a href="#layers" className="button">Explore Protocol</a>
+    <img className="mx-auto pt-8" src={arrow} alt=""/>
     </div>
     </section>
   );

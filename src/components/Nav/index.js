@@ -17,7 +17,7 @@ export default class Nav extends Component{
   render() {
   return (
   <nav>
-    <div class="md:max-w-6xl mx-auto pt-4 px-4">
+    <div className="md:max-w-6xl mx-auto pt-4 px-4">
       <ul className="flex justify-end items-center h-max">
         <li className="mr-6 w-full">
           <a href="#"><img src={logo} alt="" className=""/></a>

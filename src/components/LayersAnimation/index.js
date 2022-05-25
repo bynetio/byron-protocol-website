@@ -14,6 +14,7 @@ export default class LayersAnimation extends Component {
           <div className="w-full sm:w-1/2 mr-14">
 
             <div className="mx-6 mx-6 md:mx-8 xl:mx-auto mt-12">
+              <div className="">
           <h4 className="text-sm text-blue uppercase font-bold tracking-[.5em] mb-6">Meet protocol layers</h4>
           <h2 className="text-[56px] font-bold">Prime Liquidity</h2>
           <p className="mt-8 text-lg">DApps and third-party services are able to access Prime Liquidity from Bynet Protocol’s order book and enrich their DeFi products. Layer 1 consists of Liquidity Orders that form Liquidity Pools with UTxOs available for exchange.</p>
@@ -40,15 +41,18 @@ export default class LayersAnimation extends Component {
                 </span>
             </div>
             </div>
+            </div>
 
-          <div>
+          <div className="">
           <h4 className="mt-[100px] text-sm text-blue uppercase font-bold tracking-[.5em] mb-6">Meet protocol layers</h4>
           <h2 className="text-[38px] md:text-[56px] font-bold">Matching Engine</h2>
-          <p className="mt-8 text-lg">Matching is a service that executes transactions by matching appropriate orders from the order book. Matchmaker is an algorithmic program that performs swaps while getting the difference between the bid and ask prices. It can decide on the commission they are aiming for, with diverse strategies dependent on a specific market.</p>
+          <p className="mt-8 text-lg"> Matching is a service that executes transactions by matching appropriate orders from the order book. Matchmaker is an algorithmic program that performs swaps while getting the difference between the bid and ask prices. It can decide on the commission they are aiming for, with diverse strategies dependent on a specific market. Matching is a service that executes transactions by matching appropriate orders from the order book. Matchmaker is an algorithmic program that performs swaps while getting the difference between the bid and ask prices. It can decide on the.</p>
           <p className="mt-8 text-blue">Stake Pool Operators are a crucial part of the next phase - scaling with the Layer 2. As incentivised contributors to the protocol, they are going to act as Matchmakers.</p>
+          <p className="mt-8 text-blue">Stake Pool Operators are a crucial part of the next phase - scaling with the Layer 2. As incentivised contributors to the protocol, they are going to act as Matchmakers.</p>
+          
           </div>
 
-          <div>
+          <div className="">
           <h4 className="mt-[100px] text-sm text-blue uppercase font-bold tracking-[.5em] mb-6">Meet protocol layers</h4>
           <h2 className="text-[38px] md:text-[56px] font-bold">Beating challenges</h2>
           <ul className="mt-8 text-lg">
@@ -69,7 +73,7 @@ export default class LayersAnimation extends Component {
           </div>
 
           <div className="w-full sm:w-1/2 ml-14">
-            <div className="mb-60"></div>
+            <div className="mb-65"></div>
             <ul id="cards" className="mt-16">
             <li className="card" id="card_1">
               <img className="card__content" src={a} alt="" ></img>

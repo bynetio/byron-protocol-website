@@ -7,7 +7,7 @@ export default class CallToAction extends Component {
   render() {
     return (
       <section id="callToAction" className="">
-        <div class="bg-bckg-blue">
+        <div className="bg-bckg-blue">
         <div className="triangle"></div>
           <div className="rectangle"></div>
         </div>
