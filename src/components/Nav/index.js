@@ -8,30 +8,34 @@ import {
 import Footer from "../Footer";
 import './Nav.scss';
 
-import a from '../../1.png';
-import b from '../../2.png';
-import c from '../../3.png';
-import logo from '../../byron-logo.svg';
-import arrow from '../../arrow-right.svg';
 export default class Nav extends Component{
   render() {
   return (
-  <div class="md:max-w-6xl mx-auto pt-4 px-4">
-    <ul className="flex justify-end items-center h-max">
-      <li className="mr-6 w-full">
-        <a href="#"><img src={logo} alt="" className=""/></a>
-      </li>
-      <li className="mr-6 invisible md:visible w-0 md:w-auto">
-        <a className="text-black hover:text-blue font-bold" href="#">Home</a>
-      </li>
-      <li className="mr-6 invisible md:visible w-0 md:w-max">
-        <a className="text-black hover:text-blue" href="#layers" >Protocol&nbsp;Layers</a>
-      </li>
-      <li className="mr-6">
-        <a className="text-blue font-bold hover:underline w-max inline-block" href="https://docsend.com/view/5zj8emupedjs4gtt" rel="noopener noreferrer" target="blank">Whitepaper<img className="inline-block" src={arrow} alt=""/></a>
-      </li>
-    </ul>
-</div>
+    <Router>
+      <div>
+      <nav className="navbar navbar-expand-lg navbar-light justify-content-left">
+       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="collapse navbar-collapse" id="navbarNav">
+        <ul className="navbar-nav text-uppercase" >
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/about">About</NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/dashboard">Dashboard</NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/card">Card</NavLink>
+          </li>
+        </ul>
+        </div>
+        </nav>
+        <Routes>
+          <Route extact path="/dashboard" element={<Footer />}/>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 }

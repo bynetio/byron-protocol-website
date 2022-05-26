@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
 import './Hero.scss';
-import abstract from '../../abstract.png'
 
 export default class Hero extends Component {
   render() {
     return (
-      <section id="hero" className="overflow-hidden mx-auto my-auto bg-gradient-to-t from-bckg-blue to-white">
-        <img src={abstract} alt="" className="mx-auto"/>
-        <div className="absolute">
-        <h1 className=" pt-16 md:pt-56 pb-8 md:pb-32 text-5xl md:text-7xl max-w-5xl mx-auto font-extrabold leading-relaxed">Scalable infrastructure empowering DeFi on Cardano</h1>
-        <a href="#layers" className="bg-gradient-to-r from-dark-blue to-light-blue hover:from-light-blue hover:to-dark-blue text-white font-bold py-2 px-4 rounded-lg">Explore Protocol</a>
-        </div>
+      <section id="hero" className="container mx-auto my-auto">
+        <h1 className="mt-56 text-7xl max-w-5xl mx-auto font-extrabold leading-relaxed">Liquidity Provider infrastructure for Cardano</h1>
+        <button className="mt-32 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">Explore Protocol</button>
       </section>
     )
   }
