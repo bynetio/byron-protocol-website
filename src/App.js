@@ -12,7 +12,6 @@ function App() {
       <Nav/>
       <ParallaxImagesContainer/>
       <Layers/>
-      <LayersAnimation/>
       <CallToAction/>
       <Footer/>
     </div>

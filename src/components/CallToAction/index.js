@@ -6,7 +6,7 @@ import arrow from '../../arrow-white.png';
 export default class CallToAction extends Component {
   render() {
     return (
-      <section id="callToAction" className="">
+      <section id="callToAction" className="overflow-hidden">
         <div className="bg-bckg-blue">
         <div className="triangle"></div>
           <div className="rectangle"></div>
