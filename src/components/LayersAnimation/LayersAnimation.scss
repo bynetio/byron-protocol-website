@@ -1,7 +1,17 @@
+@import "../../../public/assets/_master.scss";
+.shadow {
+    -webkit-box-shadow: -100px 100px 100px 100px rgba(126, 132, 208, 0.21);
+    -moz-box-shadow: -100px 100px 100px 100px #7e84d036;
+    box-shadow: -700px 300px 100px 150px rgba(126, 132, 208, 0.21);
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+
 :root {
-    --card-height: 30vw;
+    --card-height: 40rem;
     --card-margin: 2vw;
-    --card-top-offset: 3em;
+    --card-top-offset: 4rem;
     --numcards: 3;
     --outline-width: 0px;
 }
@@ -27,7 +37,7 @@
 
 .card {
     position: sticky;
-    top: 600px;
+    top: 0px;
     padding-top: calc(var(--index) * var(--card-top-offset));
 }
 
@@ -64,68 +74,4 @@
             transform: scale(calc( 1.1 - calc(0.1 * var(--reverse-index))));
         }
     }
-}
-
-
-/** DEBUG **/
-
-#debug {
-    position: fixed;
-    top: 1em;
-    left: 1em;
-}
-
-#debug::after {
-    content: " Show Debug";
-    margin-left: 1.5em;
-    color: white;
-    white-space: nowrap;
-}
-
-#debug:checked~main {
-    --outline-width: 1px;
-}
-
-#cards {
-    list-style: none;
-    outline: calc(var(--outline-width) * 10) solid blue;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(var(--numcards), var(--card-height));
-    gap: var(--card-margin);
-}
-
-.card {
-    outline: var(--outline-width) solid hotpink;
-}
-
-.card__content {
-    overflow: hidden;
-    display: grid;
-    grid-template-areas: "text img";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    align-items: stretch;
-    outline: var(--outline-width) solid lime;
-}
-
-.card__content>div {
-    grid-area: text;
-    width: 80%;
-    place-self: center;
-    text-align: left;
-    display: grid;
-    gap: 1em;
-    place-items: start;
-}
-
-.card__content>figure {
-    grid-area: img;
-    overflow: hidden;
-}
-
-.card__content>figure>img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }

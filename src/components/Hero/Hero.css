@@ -1,4 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;800&display=swap");
+html {
+  scroll-behavior: smooth;
+  font-family: 'Mulish';
+}
+
 #hero {
-  min-height: 80vh;
+  min-height: 95vh;
+}
+
+#hero .absolute {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0px;
+  right: 0;
+  top: 292px;
+}
+
+@media (min-width: 640px) {
+  #hero .absolute {
+    top: 415px;
+  }
+}
+
+#hero .button {
+  background: linear-gradient(90deg, #2C2EFE 0%, #0A97FD 134.71%);
+  padding: 12px 24px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+#hero .button:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), linear-gradient(90deg, #2C2EFE 0%, #0A97FD 134.71%);
+}
+
+#hero .button:focus {
+  background: linear-gradient(90deg, #2C2EFE 0%, #0A97FD 134.71%);
+  padding: 12px 24px;
+  outline: 1px dashed #838383;
+  outline-offset: 8px;
+}
+
+#hero .button:active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), linear-gradient(90deg, #2C2EFE 0%, #0A97FD 134.71%);
+}
+
+#hero .button:disabled {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), linear-gradient(90deg, #2C2EFE 0%, #0A97FD 134.71%);
 }
