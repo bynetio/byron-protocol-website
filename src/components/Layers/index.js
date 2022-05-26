@@ -141,15 +141,15 @@ export default class Layers extends Component {
           <div className="w-full sm:w-1/2 ml-14">
             <ul id="cards">
             <li className="card" id="card_1">
-            <div className="mb-0"></div>
+            <div className="mb-20"></div>
               <img className="card__content" src={a1} alt="" ></img>
             </li>
             <li className="card" id="card_2">
-            <div className=""></div>
+            <div className="mb-20"></div>
               <img className="card__content" src={b1} alt="" ></img>
             </li>
             <li className="card" id="card_3">
-            <div className=""></div>
+            <div className="mb-20"></div>
               <img className="card__content" src={c1} alt="" ></img>
             </li>
           </ul>
