@@ -16,7 +16,7 @@ export default class CallToAction extends Component {
 
           <div className="w-full xl:w-1/2">
           <h4 className="text-sm text-blue uppercase font-bold tracking-[.5em] my-6">Get started</h4>
-            <h2 className="text-[38px] md:text-[28px] xl:text-[56px] font-bold text-white">Empowering DeFi on Cardano</h2>
+            <h2 className="text-[38px] md:text-[28px] font-extrabold text-white">Empowering DeFi on Cardano</h2>
             <p className="text-grey mb-10">Bynet Protocol will serve as a vital hub, which eliminates the technology barrier and provides on-chain liquidity for DApps, DAOs and Lending Protocols. Our open-source code, libraries, SDK will attract and empower any project to build or adopt the advantages of our ecosystem.</p>
             <a href="https://docsend.com/view/5zj8emupedjs4gtt" rel="noopener noreferrer" target="blank" className="button">Explore our Whitepaper<img className="inline-block ml-2" src={arrow} alt=""/></a>
           </div>
