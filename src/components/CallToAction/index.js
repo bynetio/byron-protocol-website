@@ -11,7 +11,7 @@ export default class CallToAction extends Component {
         <div className="triangle"></div>
           <div className="rectangle"></div>
         </div>
-        <div className="bg-navy text-left">
+        <div className="bg-navy text-left pb-14 md:pb-20">
         <div className="mx-6 md:mx-8 xl:mx-auto flex flex-wrap-reverse max-w-6xl">
 
           <div className="w-full xl:w-1/2">
