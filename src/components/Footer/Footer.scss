@@ -1,1 +1,52 @@
 @import "../../../public/assets/_master.scss";
+footer {
+    .container-fluid {
+        width: 80vw;
+    }
+    .footer-info {
+        padding: 3rem 1rem;
+        a {
+            color: black;
+        }
+        .col {
+            padding: 0 0 0 0;
+            .footer-links {
+                padding-left: 1rem;
+                a {
+                    color: $dark-blue;
+                }
+            }
+            .category-btn {
+                font-size: 1rem;
+                padding: 0.2rem 1.5rem;
+                margin: 1rem 0.1rem;
+                border-radius: 0;
+                border: none;
+                color: black;
+            }
+            #ctgr-1 {
+                background-color: $dark-blue;
+            }
+            #ctgr-2 {
+                background-color: $dark-blue;
+            }
+            #ctgr-3 {
+                background-color: $dark-blue;
+            }
+            #ctgr-4 {
+                background-color: $dark-blue;
+            }
+            #ctgr-5 {
+                background-color: $dark-blue;
+            }
+        }
+    }
+    .author {
+        border-top-style: dashed;
+        border-color: $dark-blue;
+        border-width: 2px;
+        font-size: 1rem;
+        padding: 1rem 1rem;
+        width: 80vw;
+    }
+}
