@@ -30,7 +30,7 @@ export default class Footer extends Component {
             </div>
           </div>
 
-          <div className=""><div className="mr-4 text-grey block">Copyrignt@ 2022 Byron Network OU. <br/>All rights reserved.</div></div>
+          <div className=""><div className="mr-4 text-grey block">Copyright@ 2022 Byron Network OU. <br/>All rights reserved.</div></div>
         </div>
 
         

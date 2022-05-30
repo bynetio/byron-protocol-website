@@ -19,7 +19,7 @@ export default class Layers extends Component {
           <div className="md:w-full xl:w-1/2 xl:mr-14">
           <h4 className="text-sm text-blue uppercase font-bold tracking-[.5em] mb-6">Meet protocol layers</h4>
           <h2 className="text-[38px] md:text-[56px] font-extrabold">Prime Liquidity</h2>
-          <p className="mt-8 text-lg text-gray-600">DApps and third-party services are able to access Prime Liquidity from Bynet Protocol’s order book and enrich their DeFi products. Layer 1 consists of Liquidity Orders that form Liquidity Pools with UTxOs available for exchange.</p>
+          <p className="mt-8 text-lg text-gray-600">DApps and third-party services are able to access Prime Liquidity from Bynet Protocol’s Order Book and enrich their DeFi products. Layer 1 consists of Liquidity Orders that form Liquidity Pools with UTxOs available for exchange.</p>
           <div className="mt-12 text-lg">
             <div className="flex flex-row bg-white rounded-lg mb-6">
               <span className="basis-1/10 my-8 mx-6"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="16" fill="#D7ECFF"/><path d="M21.3332 12L13.9998 19.3333L10.6665 16" stroke="#1566E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
@@ -52,8 +52,8 @@ export default class Layers extends Component {
           <div className="md:w-full xl:w-1/2 2xl:mr-14">
           <h4 className="text-sm text-blue uppercase font-bold tracking-[.5em] mb-6">Meet protocol layers</h4>
           <h2 className="text-[38px] md:text-[56px] font-extrabold">Matching Engine</h2>
-          <p className="mt-8 text-lg text-gray-600">Matching is a service that executes transactions by matching appropriate orders from the order book. Matchmaker is an algorithmic program that performs swaps while getting the difference between the bid and ask prices. It can decide on the commission they are aiming for, with diverse strategies dependent on a specific market.</p>
-          <p className="mt-8 text-blue">Stake Pool Operators are a crucial part of the next phase - scaling with the Layer 2. As incentivised contributors to the protocol, they are going to act as Matchmakers.</p>
+          <p className="mt-8 text-lg text-gray-600">Matching is a service that executes transactions by matching appropriate orders from the Order Book. Matchmaker is an algorithmic program that performs swaps while getting the difference between the bid and ask prices. It can decide on the commission they are aiming for, with diverse strategies dependent on a specific market.</p>
+          <p className="mt-8 text-blue text-lg">Stake Pool Operators are a crucial part of the next phase - scaling with the Layer 2. As incentivized contributors to the protocol, they are going to act as Matchmakers.</p>
           </div>
           <div className="w-0 invisible md:visible xl:invisible  md:w-full xl:w-1/2 2xl:ml-14"><img src={b} alt="" ></img></div>
         </div>
@@ -70,8 +70,8 @@ export default class Layers extends Component {
             </li>
             <li>
             <img src={dot3} alt=""/>
-              <p className="text-xl font-bold mt-2 mb-4">DeFi projects are limited to liquidity locked only on their own protocols.</p>
-              <p className="mb-8 text-gray-600">Prime liquidity is the answer to new-born markets struggling with initial liquidity. Various projects can use liquidity on the On-chain Order book and therefore increase the number of UTxOs a project has access to. They are not limited to their own market and benefit from other protocol’s contributors.</p>
+              <p className="text-xl font-bold mt-2 mb-4">DeFi projects are limited to liquidity locked only on their protocols.</p>
+              <p className="mb-8 text-gray-600">Prime Liquidity is the answer to newborn markets struggling with initial liquidity. Various projects can use liquidity on the On-chain Order Book and therefore increase the number of UTxOs a project has access to. They are not limited to their market and benefit from other protocol’s contributors.</p>
             </li>
           </ul>
           </div>
@@ -86,7 +86,7 @@ export default class Layers extends Component {
           <div className="mx-6 mx-6 md:mx-8 xl:mx-auto mt-12">
           <h4 className="text-sm text-blue uppercase font-bold tracking-[.5em] mb-6">Meet protocol layers</h4>
           <h2 className="text-[56px] font-extrabold">Prime Liquidity</h2>
-          <p className="mt-8 text-lg text-gray-600 text-gray-600">DApps and third-party services are able to access Prime Liquidity from Bynet Protocol’s order book and enrich their DeFi products. Layer 1 consists of Liquidity Orders that form Liquidity Pools with UTxOs available for exchange.</p>
+          <p className="mt-8 text-lg text-gray-600 text-gray-600">DApps and third-party services are able to access Prime Liquidity from Bynet Protocol’s Order Book and enrich their DeFi products. Layer 1 consists of Liquidity Orders that form Liquidity Pools with UTxOs available for exchange.</p>
           <div className="mt-12 text-lg shadow">
             <div className="flex flex-row bg-white rounded-lg mb-6">
               <span className="basis-1/10 my-8 mx-6"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="16" fill="#D7ECFF"/><path d="M21.3332 12L13.9998 19.3333L10.6665 16" stroke="#1566E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
@@ -114,8 +114,8 @@ export default class Layers extends Component {
           <div>
           <h4 className="mt-[100px] text-sm text-blue uppercase font-bold tracking-[.5em] mb-6">Meet protocol layers</h4>
           <h2 className="text-[38px] md:text-[56px] font-extrabold">Matching Engine</h2>
-          <p className="mt-8 text-lg text-gray-600">Matching is a service that executes transactions by matching appropriate orders from the order book. Matchmaker is an algorithmic program that performs swaps while getting the difference between the bid and ask prices. It can decide on the commission they are aiming for, with diverse strategies dependent on a specific market.</p>
-          <p className="mt-8 text-blue">Stake Pool Operators are a crucial part of the next phase - scaling with the Layer 2. As incentivised contributors to the protocol, they are going to act as Matchmakers.</p>
+          <p className="mt-8 text-lg text-gray-600">Matching is a service that executes transactions by matching appropriate orders from the Order Book. Matchmaker is an algorithmic program that performs swaps while getting the difference between the bid and ask prices. It can decide on the commission they are aiming for, with diverse strategies dependent on a specific market.</p>
+          <p className="mt-8 text-blue text-lg">Stake Pool Operators are a crucial part of the next phase - scaling with the Layer 2. As incentivized contributors to the protocol, they are going to act as Matchmakers.</p>
           </div>
 
           <div>
@@ -129,8 +129,8 @@ export default class Layers extends Component {
             </li>
             <li>
             <img src={dot3} alt="" className="max-h-[48px]"/>
-              <p className="text-xl font-bold mt-2 mb-4">DeFi projects are limited to liquidity locked only on their own protocols.</p>
-              <p className="mb-8 text-gray-600">Prime liquidity is the answer to new-born markets struggling with initial liquidity. Various projects can use liquidity on the On-chain Order book and therefore increase the number of UTxOs a project has access to. They are not limited to their own market and benefit from other protocol’s contributors.</p>
+              <p className="text-xl font-bold mt-2 mb-4">DeFi projects are limited to liquidity locked only on their protocols.</p>
+              <p className="mb-8 text-gray-600">Prime Liquidity is the answer to newborn markets struggling with initial liquidity. Various projects can use liquidity on the On-chain Order Book and therefore increase the number of UTxOs a project has access to. They are not limited to their market and benefit from other protocol’s contributors.</p>
             </li>
           </ul>
           </div>
