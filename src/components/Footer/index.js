@@ -48,7 +48,7 @@ export default class Footer extends Component {
             <a href="https://iog.io/" className="mr-4 text-blue" target="blank">IOG</a>
           </div>
 
-          <div className="md:row-span-1 md:col-span-3"><div className="mr-4 text-grey">Copyrignt@ 2022 Byron Network OU. All rights reserved.</div></div>
+          <div className="md:row-span-1 md:col-span-3"><div className="mr-4 text-grey">Copyright@ 2022 Byron Network OU. All rights reserved.</div></div>
 
           <div className="md:row-span-2 md:col-span-2 flex md:h-[300px] xl:h-auto">
             <a href="https://twitter.com/byron_cardano" target="blank"><img src={twitter} alt="Logo" className="mr-4"/></a>
