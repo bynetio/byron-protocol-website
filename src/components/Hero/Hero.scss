@@ -17,14 +17,14 @@ html {
             top: 415px;
         }
     }
-    .button {
+    .btn-primary {
         background: linear-gradient(90deg, #2C2EFE 0%, #0A97FD 134.71%);
         padding: 12px 24px;
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
         border-radius: 8px;
-        color: #ffffff;
+        color: white;
         &:hover {
             background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), linear-gradient(90deg, #2C2EFE 0%, #0A97FD 134.71%);
         }
@@ -39,6 +39,34 @@ html {
         }
         &:disabled {
             background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), linear-gradient(90deg, #2C2EFE 0%, #0A97FD 134.71%);
+        }
+    }
+    .btn-secondary {
+        padding: 12px 24px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        border-radius: 8px;
+        border: 1px solid #2C2EFE;
+        color: black;
+        &:hover {
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), linear-gradient(90deg, #2C2EFE 0%, #0A97FD 134.71%);
+            color: white;
+        }
+        &:focus {
+            background: linear-gradient(90deg, #2C2EFE 0%, #0A97FD 134.71%);
+            padding: 12px 24px;
+            outline: 1px dashed #838383;
+            outline-offset: 8px;
+            color: white;
+        }
+        &:active {
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), linear-gradient(90deg, #2C2EFE 0%, #0A97FD 134.71%);
+            color: white;
+        }
+        &:disabled {
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), linear-gradient(90deg, #2C2EFE 0%, #0A97FD 134.71%);
+            color: white;
         }
     }
 }

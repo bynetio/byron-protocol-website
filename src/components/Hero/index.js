@@ -50,8 +50,10 @@ const ParallaxImagesContainer = ({ backgroundImage, layers }) => {
     </Container>
     <div className="absolute">
     <h1 className="pb-8 md:pb-32 text-5xl md:text-7xl max-w-5xl mx-auto font-extrabold leading-relaxed">Scalable infrastructure empowering DeFi on Cardano</h1>
-    <span className="stitch"></span><a href="#layers" className="button">Explore Protocol</a>
-    <img className="mx-auto pt-8" src={arrow} alt=""/>
+    <div className="flex justify-center flex-wrap md:flex-nowrap gap-x-6 gap-y-6">
+    <span className="stitch"></span><a href="#layers" className="btn-primary">Explore Protocol<img className="mx-auto inline-block" src={arrow} alt=""/></a>
+    <span className="stitch"></span><a href="https://docsend.com/view/jdibiwr5mxdtfgd2" target="blank" className="btn-secondary">See Pitchdeck</a>
+    </div>
     </div>
     </section>
   );
